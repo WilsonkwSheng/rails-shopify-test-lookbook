@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   window.app = createApp({
     apiKey: data.apiKey,
     shopOrigin: data.shopOrigin,
+    forceRedirect: false
   });
+  // change forceRedirect to true when going production
 
   var actions = AppBridge.actions;
   var TitleBar = actions.TitleBar;
