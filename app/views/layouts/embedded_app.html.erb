@@ -10,8 +10,12 @@
     <% else %>
       <%= javascript_include_tag 'application' %>
     <% end %>
-    <%= javascript_pack_tag 'hello_react' %>
+    <%= javascript_pack_tag 'product_list' %>
     <%= csrf_meta_tags %>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@shopify/polaris@4.25.0/styles.min.css"
+    />
   </head>
 
   <body>
