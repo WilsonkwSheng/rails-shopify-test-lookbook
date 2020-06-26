@@ -1,0 +1,16 @@
+ms:
+  hello: "Hello world" 
+  static_text:
+    title: "MS Lookbook App"
+    product_title: "Prod"
+    save: "Sav"
+    close: "Tutup"
+    number_items_showing: "tengok {itemsCount} {resource}"
+    item: "Item"
+    items: "Items"
+    choose_block: "Pilih Block"
+    choose_image: "Pilih an image for the block"
+    block1_title: "Kiri Aligned Text"
+    block2_title: "Kanan Aligned Text"
+    block3_title: "Heading with tengah image"
+    delete_block_title: "Delete la Blo"
