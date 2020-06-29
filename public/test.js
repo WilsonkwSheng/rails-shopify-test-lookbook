@@ -3,7 +3,7 @@ const url = window.location.href
 const shop = window.location.host
 const handle = url.split('/').pop()
 
-fetch(`https://test-store-example1.myshopify.com//api/v1/front_end/index?shop=${shop}`, {
+fetch(`https://test-store-example1.myshopify.com/api/v1/front_end/index?shop=${shop}`, {
   method: "GET"
 })
 .then(res => res.json())
