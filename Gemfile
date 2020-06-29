@@ -28,6 +28,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'dotenv-rails'
 gem 'shopify_app'
 gem 'js-routes'
+gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
